@@ -1,0 +1,151 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos del menú de navegación */
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+/* Estilos del héroe */
+.hero {
+  text-align: center;
+  padding: 100px 0;
+  background-color: #0077b6;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero button {
+  background-color: #005d8e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #004b75;
+}
+
+/* Estilos de características */
+.features {
+  padding: 40px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.feature {
+  margin: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+.feature img {
+  width: 100px;
+  height: 100px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.feature p {
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Estilos de contacto */
+.contact {
+  padding: 40px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.contact p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0077b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #005d8e;
+}
+
+/* Estilos del pie de página */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
